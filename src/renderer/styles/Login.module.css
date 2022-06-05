@@ -1,0 +1,126 @@
+body {
+  background-color: #ffffff;
+  font-family: Tomorrow;
+}
+
+.LoginScreen {
+  justify-content: center;
+  alignment: center;
+  margin: 20px 0;
+  display: inline;
+  text-align: center;
+  color: #0c2875;
+}
+
+.Card {
+  box-shadow: 1px 1px 5px #ccc;
+  background-color: #61abf0;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.Topo {
+  color: #103bb1;
+  position: absolute;
+  width: 510px;
+  height: 48px;
+  top: 123px;
+  left: 510px;
+  background-color: #ffffff;
+}
+
+.FormLogin {
+  display: flex;
+  box-shadow: 1px 1px 5px #ccc;
+  background-color: #61abf0;
+  padding: 30px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+input {
+  margin: 10px;
+  width: 500px; /*altera a largura da caixa de entrada -> nome e senha*/
+}
+
+.CardGroup {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.CardGroup > label {
+  width: 100%;
+  color: #ffffff;
+  display: block;
+}
+
+button { 
+  margin: 5px;
+  background-color: white;
+  padding: 5px 6px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: transform ease-in 0.1s;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}
+
+.BotaoParent {
+  alignment: center;
+  display: inline;
+}
+
+h1 {
+  display: block;
+  color: #0c2875;
+  text-align: center;
+}
+
+.navbar{
+  text-align: right;
+  alignment: right;
+}
+
+.navLinks{
+  margin: 10px;
+}
+
+.container { /*avatar masc e fem*/
+  border: 3px solid #2f42b3;
+  display: inline-block;
+  text-align: center;
+}
+
+/*li {*/
+/*    list-style: none;*/
+/*}*/
+
+.login-button {
+background-color: black;
+padding: 10px 20px;
+border-radius: 10px;
+border: none;
+appearance: none;
+font-size: 1.3rem;
+box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+  0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+transition: transform ease-in 0.1s;
+cursor: pointer;
+display: inline;
+}
+

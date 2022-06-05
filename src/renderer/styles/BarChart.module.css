@@ -1,0 +1,15 @@
+.svg {
+    background-color: #cccccc;
+    overflow: visible;
+    alignment: center;
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+.svg-container{
+    display: block;
+    margin: auto;
+}
+.entrada {
+    text-align: center;
+}
